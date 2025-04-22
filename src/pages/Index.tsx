@@ -5,6 +5,7 @@ import PreSaleForm from "@/components/PreSaleForm";
 import About from "@/components/About";
 import Tokenomics from "@/components/Tokenomics";
 import Faq from "@/components/Faq";
+import Calculator from "@/components/Calculator";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -14,6 +15,9 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      {/* Calculator Section */}
+      <Calculator />
+
       {/* Hero Section */}
       <section className="relative py-20">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1639322537138-5e513100b36e')] bg-cover bg-center opacity-10 z-0"></div>
